@@ -26,7 +26,7 @@ NProgress.configure({showSpinner:false});
             type:'get',
             url:'/employee/checkRootLogin',
             success:function(data){
-                console.log(data.error)
+                
                 
                 if(data.error===400){
                     // 说明用户没登录跳转向登录页
