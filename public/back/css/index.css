@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.sade{
+    width: 180px;
+    height: 100%;
+    background-color: #222d32;
+    transition: all 1s;
+}
+.sade.now{
+    margin-left: -180px;
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.banner a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    background-color:#367fa9;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.master img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.master>p {
+text-align: center;
+color: #fff;
+margin-top: 15px;
+
+}
+/* .content ul >li{ */
+    /* margin: 15px 0 0  40px;
+    width: 180px;
+    height: 40px;
+    
+} */
+
+.content ul >li a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    color: #ccc;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border-left: 3px solid transparent;
+    
+}
+
+.content ul >li a.active{
+    background-color: #1d1f21;
+    color: #fff;
+    border-left: 3px solid #3c8dbc;
+}
+
+.child a {
+display: block;
+width: 180px;
+height: 40px;
+margin-left: 20px;
+font-size: 12px;
+}
+
+.main{
+    width: 100%;
+
+   padding-left: 180px;
+   transition: all 1s;
+}
+.main.now{
+    padding-left: 0px;
+}
+.main .main-top{
+    width: 100%;
+    height: 50px;
+    background-color: #3c8dbc;
+}
+
+.main .main-top a{
+    font-size: 16px;
+   
+    color: #fff;
+    margin-top: 15px;
+}
+
+.main .main-bread{
+margin: 15px;
+}
+
+
+
+.main-body .vatical{
+    width: 50%;
+    height: 500px;
+    
+}
+.main-body .round{
+    width: 50%;
+    height: 500px;
+    /* background-color: green; */
+}
